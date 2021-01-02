@@ -13,11 +13,11 @@ if (empty($_SESSION['email'])) {
   </head>
 
   <body>
-
     <font class="heading">Project Managenent System</font>
 
     <br />
     <div class="main">
+    <img src="bg2.jpg" width="100%">
       <div class="login">
         <form name="login" action="chk.php" method="post">
           <table cellspacing="02" cellpadding="05">

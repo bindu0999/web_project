@@ -16,26 +16,36 @@ table {
   height: 100%;
 }
 
+.admin{
+  font-size: 30px;
+  color :aliceblue;
+  padding: 15px;
+}
+
+.tablename{
+  padding: 15px;
+}
+
 .heading{
   font-size: 30px;
-  padding: 15px ;
+  padding: 10px ;
   position :absolute;
   background-color: chocolate;
   color: aliceblue;
   width: 100% ;
   text-align: center;
-  }
+}
 
 
 .login{
   position: absolute;
   align-content: center;
   margin: auto;
-  padding: 10px;
+  padding: 40px;
   top: 30%;
   left: 40%;
   background-color:gainsboro;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 3px 5px 10px 0.8px rgba(0, 0, 0, 1);
 }
 
 .submit{

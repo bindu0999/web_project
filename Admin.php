@@ -21,17 +21,8 @@ if($role=="Admin")
 </head>
 <div>
 <body>
-    <table width="100%" cellspacing="00" cellpadding="00">
-  <tr bgcolor="#D2691E">
-    <th scope="col">&nbsp;</th>
-    <th scope="col"><font size="7" color="White">Project Managenent System</font></th>
-    <th scope="col"><font color="White" size="">
-	<?php
-    print $role;
-    ?></font></th>
-    <th scope="col">&nbsp;</th>
-  </tr>
-</table>
+<font class="heading">Project Managenent System</font>
+<br/><br/><br/>
 <ul>
 <li><a href="ADMIN/student.php">Add Student</a></li>
 <li><a href="ADMIN/faculty.php">Add Faculty</a></li>

@@ -25,7 +25,7 @@ $count = mysqli_num_rows($res);
 		}
     }
  else {
-        echo 'Fill up al fields';
+		echo "<script>alret('Fill up all fields')</script>";
     }
 }
 else if($role == "Faculty")
@@ -38,7 +38,6 @@ else if($role == "Faculty")
 		if($count == 0)
 		{
 		echo "username password Incorrect";
-		redirect("login.php");
 		}
 		else
 		{
