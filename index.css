@@ -1,0 +1,72 @@
+
+body {
+  background-color: azure;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+table {
+  position: center;
+}
+
+.heading{
+  font-size: 25px;
+  margin: 2px;
+  padding: 5px;
+  position :absolute;
+}
+
+.headbg{
+  align-content: center;
+  display: block;
+  padding: 2px;
+  margin: auto;
+  background-color: magenta;
+}
+
+.login{
+  position: absolute;
+  align-content: center;
+  margin: auto;
+  padding: 10px;
+  top: 30%;
+  left: 40%;
+  background-color:gainsboro;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit{
+  background-color: #007fff;
+  border: none;
+  padding: 10px;
+  color: azure;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
