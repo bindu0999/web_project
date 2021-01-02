@@ -21,7 +21,7 @@ if($role=="Admin")
 </head>
 <div>
 <body>
-    <table width="100%"  border="0"cellspacing="00" cellpadding="00">
+    <table width="100%" cellspacing="00" cellpadding="00">
   <tr bgcolor="#D2691E">
     <th scope="col">&nbsp;</th>
     <th scope="col"><font size="8" color="White">Project Managenent System</font></th>
