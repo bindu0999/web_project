@@ -24,8 +24,8 @@ if($role=="Admin")
     <table width="100%" cellspacing="00" cellpadding="00">
   <tr bgcolor="#D2691E">
     <th scope="col">&nbsp;</th>
-    <th scope="col"><font size="8" color="White">Project Managenent System</font></th>
-    <th scope="col"><font color="White" size="5">
+    <th scope="col"><font size="7" color="White">Project Managenent System</font></th>
+    <th scope="col"><font color="White" size="">
 	<?php
     print $role;
     ?></font></th>

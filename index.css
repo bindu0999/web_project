@@ -1,9 +1,6 @@
 
 body {
-  background-color: azure;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  
   margin: 0px;
   padding: 0px;
 }
@@ -12,20 +9,23 @@ table {
   position: center;
 }
 
-.heading{
-  font-size: 25px;
-  margin: 2px;
-  padding: 5px;
-  position :absolute;
+.main{
+  background-image: url('./bg.png');
+  background-color: black;
+  width: auto;
+  height: 100%;
 }
 
-.headbg{
-  align-content: center;
-  display: block;
-  padding: 2px;
-  margin: auto;
-  background-color: magenta;
-}
+.heading{
+  font-size: 30px;
+  padding: 15px ;
+  position :absolute;
+  background-color: chocolate;
+  color: aliceblue;
+  width: 100% ;
+  text-align: center;
+  }
+
 
 .login{
   position: absolute;
@@ -43,6 +43,7 @@ table {
   border: none;
   padding: 10px;
   color: azure;
+  width: 100px;
 }
 
 ul {
