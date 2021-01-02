@@ -14,7 +14,7 @@
           if (!empty($id)|| !empty($name)||!empty($email)||!empty($phone)||!empty($pass)||!empty($year)||$stream!="Select")
            {
               
-            $sql= "INSERT INTO `pmas`.`student` (`s_id`, `name`, `email`, `phone`, `password`, `year`, `stream`) VALUES ('$id', '$name', '$email', '$phone', '$pass', '$year', '$stream');";
+            $sql= "INSERT INTO `pms`.`student` (`s_id`, `name`, `email`, `phone`, `password`, `year`, `stream`) VALUES ('$id', '$name', '$email', '$phone', '$pass', '$year', '$stream');";
                 mysqli_query($conn, $sql);
                 $conn->close();
                 header('Location:student.php');  

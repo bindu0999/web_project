@@ -13,7 +13,7 @@
           if (!empty($id)|| !empty($name)||!empty($email)||!empty($phone)||!empty($pass)||!empty($qualification))
            {
               
-            $sql= "INSERT INTO `pmas`.`faculty` (`f_id`, `name`, `email`, `phone`, `password`, `qualification`, `domain`, `research`, `others`) VALUES ('$id', '$name', '$email', '$phone', '$pass', '$qualification', 'NULL','NULL','NULL');";
+            $sql= "INSERT INTO `pms`.`faculty` (`f_id`, `name`, `email`, `phone`, `password`, `qualification`, `domain`, `research`, `others`) VALUES ('$id', '$name', '$email', '$phone', '$pass', '$qualification', 'NULL','NULL','NULL');";
                 mysqli_query($conn, $sql);
                 $conn->close();
                 header('Location:faculty.php');  

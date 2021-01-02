@@ -17,7 +17,7 @@ if (empty($_SESSION['email'])) {
 
     <br />
     <div class="main">
-    <img src="bg2.jpg" width="100%">
+    <img src="bg1.jpg" width="100%">
       <div class="login">
         <form name="login" action="chk.php" method="post">
           <table cellspacing="02" cellpadding="05">
@@ -42,7 +42,7 @@ if (empty($_SESSION['email'])) {
               </td>
               <td>
 
-                <select name="role">
+                <select name="role" style="width: 208px; height: 2em; font-size: 15px;">
                   <option value="Student">Student</option>
                   <option value="Faculty">Faculty</option>
                   <option value="Admin">Admin</option>

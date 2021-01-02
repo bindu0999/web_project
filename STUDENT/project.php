@@ -93,16 +93,9 @@ if($role=="Admin")
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<link rel="stylesheet" type="text/css" href="index.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style>
-	body
-	{
-		background-image:url(../project.png);
-		background-repeat: no-repeat; 
-		background-attachment: fixed;
-		background-size: 100% 100%;
-	}
-</style>
+
 <title>Project Management System</title>
 </head>
 <div>
@@ -123,51 +116,24 @@ else
 ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head><link rel="stylesheet" type="text/css" href="../index.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<style>
-	body
-	{
-		background-image:url(../project.png);
-		background-repeat: no-repeat; 
-		background-attachment: fixed;
-		background-size: 100% 100%;
-	}
-        a link{
-            text-decoration: none;
-        }
-</style>
+
 <title>Project Management System</title>
 </head>
 <div>
 <body>
-    <table width="100%"  border="0"cellspacing="00" cellpadding="00">
-  <tr bgcolor="#D2691E">
-    <th width="74" scope="col">&nbsp;</th>
-    <th width="164" scope="col"><a href="../Admin.php"><img src="../logo1.png" alt="LOGO"/></a></th>
-    <th width="646" scope="col"><font size="8" color="White">Project Managenent System</font></th>
-    <th width="140" scope="col"><font color="White" size="5">
-	<?php
-    print $role;
-    echo "<br/>";
-    print $user;
-    ?></font></th>
-    <th width="63" scope="col">&nbsp;</th>
-  </tr>
-    </table>
-  <table width="100%" border="0" cellspacing="00" cellpadding="00">
-      <tr bgcolor="#99CCFF">
-          <th width="7%" scope="col"><h4>&nbsp;</h4></th>
-          <th width="13%" scope="col"><a href="project.php">Project</a></th>
-    <th width="12%" scope="col">&nbsp;</th>
-    <th width="13%" scope="col"><a href="skill.php">View Skill Matrix</a></th>
-    <th width="11%" scope="col">&nbsp;</th>
-    <th width="13%" scope="col"><a href="mail.php">Mail</a></th>
-    <th width="12%" scope="col">&nbsp;</th>
-    <th width="13%" scope="col"><a href="../logout.php">Logout</a></th>
-    <th width="6%" scope="col">&nbsp;</th>
-  </tr>
+<font class="heading">Project Managenent System</font>
+<br/><br/><br/>
+  <ul>
+          <li><a href="project.php">Project</a></li>
+    <li><a href="skill.php">View Skill Matrix</a></li>
+
+    <li><a href="mail.php">Mail</a></li>
+
+    <li><a href="../logout.php">Logout</a></li>
+    </ul>
 <?php
 }
 ?>
