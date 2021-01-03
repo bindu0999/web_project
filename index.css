@@ -52,7 +52,7 @@ table {
   border: none;
   padding: 10px;
   color: azure;
-  width: 100px;
+  width: 150px;
 }
 
 ul {
@@ -95,7 +95,6 @@ li a:hover:not(.active) {
   box-shadow: 3px 5px 10px 0.8px rgba(0, 0, 0, 1);
 }
 
-
 .login1{
   position: absolute;
   align-content: center;
@@ -105,4 +104,12 @@ li a:hover:not(.active) {
   left: 34%;
   background-color:gainsboro;
   box-shadow: 3px 5px 10px 0.8px rgba(0, 0, 0, 1);
+}
+
+.submit2{
+  background-color: #007fff;
+  border: none;
+  padding: 10px;
+  color: azure;
+  width: 150px;
 }

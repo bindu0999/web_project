@@ -55,7 +55,7 @@ elseif($role=="Faculty")
       <li><a href="FACULTY/skill.php">Skill Matrix</a></li>
       <li><a href="FACULTY/view.php">View</a></li>
       <li><a href="FACULTY/mail.php">Mail</a></li>
-      <li<a href="FACULTY/meeting.php">Meeting</a></li>
+      <li><a href="FACULTY/meeting.php">Meeting</a></li>
       <li><a href="FACULTY/#">Reprots</a></li>
     <li><a href="logout.php">Logout</a></li>
 </ul>

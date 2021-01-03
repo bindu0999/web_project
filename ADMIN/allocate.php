@@ -40,11 +40,8 @@ if (empty($_SESSION['Email'])) {
     <head>
       <link rel="stylesheet" type="text/css" href="../index.css">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
       <title>Project Management System</title>
     </head>
-    <div>
-
       <body>
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
@@ -59,15 +56,13 @@ if (empty($_SESSION['Email'])) {
           <li><a href="../logout.php">Logout</a></li>
         </ul>
         <form method="post" action="allocate.php">
-          <div class="login">
-            <table>
+          <div class="loginn">
+            <table >
               <tr>
-                <td rowspan="2">&nbsp;</td>
-                <td><br />
+                <td>
                   <font>Student ID&nbsp;:&nbsp;</font>
                 </td>
                 <td>
-                  <br /><br />
                   <?php
                   include '../connection.php';
                   $sql = "select s_id from student";
@@ -82,11 +77,9 @@ if (empty($_SESSION['Email'])) {
                     <?php
                     }
                     ?>
-                  </select> <br /><br />
+                  </select>
                 </td>
-                <td rowspan="2">&nbsp;</td>
               </tr>
-          </div>
           <?php
           if (isset($_POST['chk'])) {
             $username = $_POST['id'];
@@ -97,17 +90,17 @@ if (empty($_SESSION['Email'])) {
           ?>
           <tr>
             <th colspan="1" scope="col">
-            <td><input class="submit" type="submit" style="width:170px;  height: 2em; font-size: 15px;" name="chk" value="Check For Request" /> <br /><br /> </td>
+            <td><input class="submit" type="submit" style="width:170px;  height: 40px; font-size: 15px;" name="chk" value="Check For Request" /></td>
           </tr>
           </table>
     </div>
     <div class="login1">
       <table cellpadding="05">
         <tr>
-          <td><br />
+          <td>
             <font>Student ID&nbsp;:&nbsp;</font>
           </td>
-          <td><br /><input id="in" type="text" name="sid" value="<?php echo $row['s_id']; ?>"></td>
+          <td><input id="in" type="text" name="sid" value="<?php echo $row['s_id']; ?>"></td>
         </tr>
         <tr>
           <td>
@@ -145,7 +138,6 @@ if (empty($_SESSION['Email'])) {
   <?php
   }
   ?>
-  </table>
 <?php
 }
 ?>
