@@ -10,7 +10,6 @@ table {
 }
 
 .main{
-  background-image: url('./bg.png');
   background-color: black;
   width: auto;
   height: 100%;
@@ -82,4 +81,28 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+}
+
+
+.loginn{
+  position: absolute;
+  align-content: center;
+  margin: 10px;
+  padding: 40px;
+  top: 20%;
+  left: 35%;
+  background-color:gainsboro;
+  box-shadow: 3px 5px 10px 0.8px rgba(0, 0, 0, 1);
+}
+
+
+.login1{
+  position: absolute;
+  align-content: center;
+  margin: 10px;
+  padding: 40px;
+  top: 53%;
+  left: 34%;
+  background-color:gainsboro;
+  box-shadow: 3px 5px 10px 0.8px rgba(0, 0, 0, 1);
 }
