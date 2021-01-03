@@ -27,13 +27,6 @@ if (isset($_POST['update'])) {
     header('Location:stsearch.php');
   }
 }
-
-
-
-
-
-
-
 if (empty($_SESSION['Email'])) {
   header("location:index.php");
 } else {
@@ -52,7 +45,7 @@ if (empty($_SESSION['Email'])) {
     </head>
     <div>
 
-      <body>
+      <body class="sub">
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
         <ul>

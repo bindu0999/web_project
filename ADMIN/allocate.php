@@ -42,7 +42,7 @@ if (empty($_SESSION['Email'])) {
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <title>Project Management System</title>
     </head>
-      <body>
+      <body class="sub">
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
         <ul>

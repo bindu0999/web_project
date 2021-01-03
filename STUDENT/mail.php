@@ -58,8 +58,7 @@ else
 
 <title>Project Management System</title>
 </head>
-<div>
-<body>
+<body class="sub1">
 <font class="heading">Project Managenent System</font>
 <br/><br/><br/>
    <ul>

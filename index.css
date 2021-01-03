@@ -113,3 +113,18 @@ li a:hover:not(.active) {
   color: azure;
   width: 150px;
 }
+
+.sub{
+  background-image: url("main_bg.jpg");
+  background-size: cover;
+}
+
+.sub1{
+  background-image: url("fa_bg.jpg");
+  background-size: cover;
+}
+
+.sub2{
+  background-image: url("bg_fa.png");
+  background-size: cover;
+}

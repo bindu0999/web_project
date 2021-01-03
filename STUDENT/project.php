@@ -81,8 +81,6 @@ if (empty($_SESSION['Email'])) {
 
             <title>Project Management System</title>
         </head>
-        <div>
-
             <body>
             <?php
             header('Location:../Admin.php');
@@ -103,9 +101,9 @@ if (empty($_SESSION['Email'])) {
 
                     <title>Project Management System</title>
                 </head>
-                <div>
+                
 
-                    <body>
+                    <body   class="sub1">
                         <font class="heading">Project Managenent System</font>
                         <br /><br /><br />
                         <ul>

@@ -17,7 +17,7 @@ if (empty($_SESSION['email'])) {
 
     <br />
     <div class="main">
-    <img src="bg1.jpg" width="100%">
+    <img src="19366.jpg" width="100%">
       <div class="login">
         <form name="login" action="chk.php" method="post">
           <table cellspacing="02" cellpadding="05">

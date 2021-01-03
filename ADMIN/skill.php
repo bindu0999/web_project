@@ -2,35 +2,19 @@
 session_start();
 $user =  $_SESSION['Email'];
 $role = $_SESSION['Role'];
-
-
-
 include '../connection.php';
-
-
-
 if (isset($_POST['view'])) {
   $username = $_POST['id'];
   $sql1 = "select * from faculty where f_id ='$username'; ";
   $rec = mysqli_query($conn, $sql1);
   $row = mysqli_fetch_assoc($rec);
 }
-
-
-
-
-
-
-
-
 if (empty($_SESSION['Email'])) {
   header("location:index.php");
 } else {
   if ($role == "Admin") {
 ?>
-
-
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
 
     <head>
@@ -41,7 +25,7 @@ if (empty($_SESSION['Email'])) {
     </head>
     <div>
 
-      <body>
+      <body class="sub">
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
         <ul>

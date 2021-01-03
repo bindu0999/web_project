@@ -55,7 +55,7 @@ if (empty($_SESSION['Email'])) {
                 </head>
                 <div>
 
-                    <body>
+                    <body class="sub1">
                         <font class="heading">Project Managenent System</font>
                         <br /><br /><br />
                         <ul>
@@ -75,7 +75,7 @@ if (empty($_SESSION['Email'])) {
             }
                 ?>
                 <form method="post" action="skill.php">
-                    <div class="login">
+                    <div class="loginn">
                         <table>
                         <tr><font>&nbsp;</font></tr>
                             <tr>
@@ -106,6 +106,7 @@ if (empty($_SESSION['Email'])) {
                     </div>
                 </form>
                 <form method="post" action="skill.php">
+                    <div class="login1">
                     <table cellspacing="5" border="0" align="center">
                         <?php
                         if (isset($_POST['asses'])) {
@@ -123,34 +124,33 @@ if (empty($_SESSION['Email'])) {
                                 echo "<td>" ?> <input type="text" name="stid" readonly value="<?php echo $std['name']; ?>" />
                                 
                                 <?php "</td>";
-                                                                                                                                                                                                                            echo "</tr>";
-                                                                                                                                                                                                                            echo "<tr>";
-                                                                                                                                                                                                                            echo "<td>" . "Qualification" . "</td>";
-                                                                                                                                                                                                                            echo "<td>" ?> <input type="text" name="faqu" readonly value="<?php echo $std['qualification']; ?>" /> <?php "</td>";
-                                                                                                                                                                                                                                        echo "</tr>";
-                                                                                                                                                                                                                                        echo "<tr>";
-                                                                                                                                                                                                                                        echo "<td>" . "Domain" . "</td>";
-                                                                                                                                                                                                                                        echo "<td>" ?> <input type="text" name="fad" readonly value="<?php echo $std['domain']; ?>" /> <?php "</td>";
-                                                                                                                                                                                                                                        echo "</tr>";
-                                                                                                                                                                                                                                        echo "<tr>";
-                                                                                                                                                                                                                                        echo "<td>" . "Research" . "</td>";
-                                                                                                                                                                                                                                        echo "<td>" ?> <input type="text" name="far" readonly value="<?php echo $std['research']; ?>" /> <?php "</td>";
-                                                                                                                                                                                                                                    echo "</tr>";
-                                                                                                                                                                                                                                    echo "<tr>";
-                                                                                                                                                                                                                                    echo "<td>" . "Others" . "</td>";
-                                                                                                                                                                                                                                    echo "<td>" ?> <input type="text" name="fao" readonly value="<?php echo $std['others']; ?>" /> <?php "</td>";
-                                                                                                                                                                                                                                    echo "</tr>";
-                                                                                                                                                                                                                                    echo "<tr>";
-                                                                                                                                                                                                                                    echo "<td></td>";
-                                                                                                                                                                                                                                    echo "<td>" ?> <input type="submit" name="allocate" readonly value="Request For Allocate" /> <?php "</td>";
-                                                                                                                                                                                                                                echo "</tr>";
-                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                ?>
+                                echo "</tr>";
+                                echo "<tr>";
+                                echo "<td>" . "Qualification" . "</td>";
+                                echo "<td>" ?> <input type="text" name="faqu" readonly value="<?php echo $std['qualification']; ?>" /> <?php "</td>";
+                                echo "</tr>";
+                                echo "<tr>";
+                                echo "<td>" . "Domain" . "</td>";
+                                echo "<td>" ?> <input type="text" name="fad" readonly value="<?php echo $std['domain']; ?>" /> <?php "</td>";
+                                echo "</tr>";
+                                echo "<tr>";
+                                echo "<td>" . "Research" . "</td>";  
+                                echo "<td>" ?> <input type="text" name="far" readonly value="<?php echo $std['research']; ?>" /> <?php "</td>";
+                                echo "</tr>";
+                                echo "<tr>";
+                                echo "<td>" . "Others" . "</td>";
+                                echo "<td>" ?> <input type="text" name="fao" readonly value="<?php echo $std['others']; ?>" /> <?php "</td>";
+                                 echo "</tr>";
+                                echo "<tr>";
+                                echo "<td></td>";
+                                echo "<td>" ?> <input  class="submit" type="submit" name="allocate" readonly value="Request For Allocate" /> <?php "</td>";
+                                echo "</tr>";
+                                 }
+                             }
+                         ?>
 
                     </table>
                 </div>
                 </form>
-                                                                                                                                                                                                                    </body>
-
-                                                                                                                                                                                                                    </html>
+</body>
+</html>

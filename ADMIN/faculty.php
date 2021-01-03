@@ -17,9 +17,7 @@ if (empty($_SESSION['Email'])) {
 
       <title>Project Management System</title>
     </head>
-    <div>
-
-      <body>
+      <body class="sub">
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
         <ul>
@@ -122,12 +120,9 @@ if (empty($_SESSION['Email'])) {
       <?php
     }
       ?>
-      </table>
 
     <?php
   }
     ?>
-
-
-
-    <p>&nbsp;</p>
+      </body>
+    </html>

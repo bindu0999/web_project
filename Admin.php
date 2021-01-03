@@ -88,15 +88,13 @@ else
     <li><a href="logout.php">Logout</a></li>
     <li>&nbsp;</li>
 </ul>
-  </tr>
-       <tr>
-        <td colspan="10"><img src="home.png" height="50%" width="100%"></img></td>
-    </tr>
-</table>
+  
+       
+
 <?php
 }
 ?>
-</table>
+
 <p>
   <?php
 }
@@ -104,6 +102,6 @@ else
     
     
 </p>
-<p>&nbsp;</p>
-  </table>
+
+  
 </table></body>

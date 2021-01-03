@@ -2,9 +2,6 @@
 session_start();
 $user =  $_SESSION['Email'];
 $role = $_SESSION['Role'];
-
-
-
 include './connection.php';
 
 if (isset($_POST['update'])) {
@@ -27,12 +24,6 @@ if (isset($_POST['update'])) {
   }
 }
 
-
-
-
-
-
-
 if (empty($_SESSION['Email'])) {
   header("location:index.php");
 } else {
@@ -50,7 +41,7 @@ if (empty($_SESSION['Email'])) {
       <title>Project Management System</title>
     </head>
 
-    <body>
+    <body class="sub">
       <font class="heading">Project Managenent System</font>
       <br /><br /><br />
       <ul>

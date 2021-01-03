@@ -14,7 +14,7 @@ if(isset($_POST['update']))
            if (!empty($domain)|| !empty($research)||!empty($others))
            {
               
-            $sql= "UPDATE `pmas`.`faculty` SET `domain` = '$domain', `research` = '$research', `others` = '$others' WHERE `faculty`.`f_id` = '$user';";
+            $sql= "UPDATE `pms`.`faculty` SET `domain` = '$domain', `research` = '$research', `others` = '$others' WHERE `faculty`.`f_id` = '$user';";
                 mysqli_query($conn, $sql);
                 $conn->close();
                 header('Location:skill.php');  
@@ -65,8 +65,8 @@ elseif($role=="Faculty")
 
 <title>Project Management System</title>
 </head>
-<div>
-<body>
+
+<body class="sub2">
 <font class="heading">Project Managenent System</font>
 <br/><br/><br/>
     <ul>

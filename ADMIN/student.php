@@ -19,7 +19,7 @@ if (empty($_SESSION['Email'])) {
     </head>
     <div>
 
-      <body>
+      <body class="sub">
         <font class="heading">Project Managenent System</font>
         <br /><br /><br />
         <ul>

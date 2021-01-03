@@ -99,7 +99,7 @@ elseif($role=="Faculty")
 <title>Project Management System</title>
 </head>
 <div>
-<body><font class="heading">Project Managenent System</font>
+<body class="sub2"><font class="heading">Project Managenent System</font>
 <br/><br/><br/>
     
       <ul>
