@@ -99,7 +99,7 @@ header("location:../Admin.php");
 </p>
 <p>&nbsp;</p>
 <form method="post" action="meeting.php">
-    <div style="background-color:beige; border:1px solid black; width:40%; margin-left:30%; margin-top:50px;">
+    <div class="loginn">
 <table width="100%" border="0" cellspacing="05" cellpadding="05">
   <tr>
     <th width="14%" rowspan="2" scope="col">&nbsp;</th>
@@ -154,7 +154,8 @@ header("location:../Admin.php");
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td colspan="2" align="center"><input style="width: 4em;  height: 2em; font-size: 20px;" type="submit" name="submit" value="Submit" /></td>
+    <th colspan="1" scope="col">
+      <td><input class="submit" style="width: 4em;  height: 2em; font-size: 20px;" type="submit" name="submit" value="Submit" /></td>
     <td>&nbsp;</td>
   </tr>
 </table>

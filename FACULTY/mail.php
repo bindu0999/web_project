@@ -70,11 +70,11 @@ elseif($role=="Faculty")
       <form method="post" action="mail.php">
     <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
         <tr bgcolor="white">   <th><h4>&nbsp;</h4></th>
-            <th><input  style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Compose" name="compose"/></th>
+            <th><input   class="submit"style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Compose" name="compose"/></th>
                 <th>&nbsp;</th>
-                <th><input style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Inbox" name="inbox"/></th>
+                <th><input class="submit"style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Inbox" name="inbox"/></th>
                 <th>&nbsp;</th>
-                <th><input style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Sent Mail" name="sent"/></th>
+                <th><input class="submit" style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Sent Mail" name="sent"/></th>
                 <th>&nbsp;</th>
         </tr>
                 <?php

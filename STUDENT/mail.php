@@ -90,11 +90,11 @@ else
 <form method="post" action="mail.php">
     <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
         <tr bgcolor="beige">   <th><h4>&nbsp;</h4></th>
-                <th><input style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Compose" name="compose"/></th>
+                <th><input class="submit" style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Compose" name="compose"/></th>
                 <th>&nbsp;</th>
-                <th><input style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Inbox" name="inbox"/></th>
+                <th><input  class="submit"style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Inbox" name="inbox"/></th>
                 <th>&nbsp;</th>
-                <th><input style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Sent Mail" name="sent"/></th>
+                <th><input class="submit" style="width: 5em;  height: 2em; font-size: 15px;" type="submit" value="Sent Mail" name="sent"/></th>
                 <th>&nbsp;</th>
         </tr>
                 <?php
@@ -114,7 +114,7 @@ else
                         <font size="5">To : &nbsp;&nbsp; </font><input id="in" type="text" name="to" readonly value="<?php echo $std["f_id"];?>"/><br/><br/>
                         <font size="5">  From : </font><input id="in" type="text" name="from" value="<?php echo $user;?>" readonly/><br/><br/>
                         <textarea name="msg" cols="30" rows="5" placeholder="Message" ></textarea><br/><br/>
-                        <input id="bt" type="submit" value="Send" name="submit"/>
+                        <input class="submit" id="bt" type="submit" value="Send" name="submit"/>
                         <br/><br/>
                         </div>
                     </td>

@@ -150,7 +150,7 @@ header("location:../Admin.php");
                  }
      ?>
             </select>   &nbsp;&nbsp;&nbsp;
-            <input style="width: 6em;  height: 2em; font-size: 15px;" type="submit" name="asses" value="Feedback"/>
+            <input  class="submit"style="width: 6em;  height: 2em; font-size: 15px;" type="submit" name="asses" value="Feedback"/>
             </td>
         </tr>
     </table>  

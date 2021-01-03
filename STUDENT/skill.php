@@ -58,8 +58,6 @@ else
 <head>
 <link rel="stylesheet" type="text/css" href="../index.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
 <title>Project Management System</title>
 </head>
 <div>
@@ -84,16 +82,12 @@ else
   <?php
 }
 ?>
-    
-    
-    
-        <br/><br/>
     <form method="post" action="skill.php">
-        <table align="center" bgcolor="grey" width="30%">
+        <div class="login">
+        <table >
         <tr>
-            
             <td align="center">
-              <br/><br/>  
+</td>  
     <?php
             include '../connection.php';
              $sql="select f_id from faculty";
@@ -110,23 +104,16 @@ else
                  }
      ?>
             </select>  <br/><br/>
-        <input type="submit" name="asses" value="View Skill Matrix"/><br/><br/>
+            <td>
+        <input  class= "submit"type="submit" name="asses" value="View Skill Matrix"/><br/><br/>
             </td>
             
         </tr>
-    </table>    
+    </table> 
+                </div>   
          </form>
-    
-    
-    
-    <br/><br/><br/>
-    
-    
-    
-    
     <form method="post" action="skill.php">
-       <div style="background-color: beige; width: 60%; margin-left: 20%;"> 
-    <table width="50%" cellpadding="5" cellspacing="5" border="0" align="center">
+       <table cellspacing="5" border="0" align="center">
     <?php
             if (isset($_POST['asses']))
             {   
@@ -175,5 +162,4 @@ else
     </table>
         </div>
     </form>
-    <br/><br/><br/>
-    </div>
+   

@@ -80,30 +80,24 @@ elseif($role=="Faculty")
   
   </table>
       <form action="skill.php" method="post">
-          <div >
-              <br/>
-              <table   cellspacing="05" cellpadding="05" align="center" width="100%">
+          <div class="loginn">
+              
+              <table   cellpadding="05" >
     <tr>
-      <td>&nbsp;</td>
       <td ><font >Domain : </font></td>
       <td><input id="in" type="text" name="domain"/><font color="red">*</font></td>
-      <td>&nbsp;</td>
-    </tr>
+      </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td ><font >Research : </font></td>
+     <td ><font >Research : </font></td>
       <td><input id="in" type="text" name="research"/><font color="red">*</font></td>
-      <td>&nbsp;</td>
-    </tr>
+     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td><font Other Skill (s) if any : </font></td>
+     <td><font >Other Skill (s) if any : </font></td>
       <td><input id="in" type="text" name="others"/></td>
-      <td>&nbsp;</td>
-    </tr>
-    
+     </tr>
     <tr>
-        <td colspan="4" align="center"><input id="bt" type="submit" name="update" value="Update" /></td>
+        <th colspan="1" scope="col">
+          <td><input  class="submit"id="bt" type="submit" name="update" value="Update" /></td>
     </tr>
   </table>
           </div>
