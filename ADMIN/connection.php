@@ -2,7 +2,7 @@
 $dbhost ='localhost';
 $dbuser = 'root';
 $dbpass = '';
-$db='pmas';
+$db='pms';
 
 $conn= mysqli_connect($dbhost,$dbuser,$dbpass);
 if($conn->connect_error){

@@ -15,7 +15,7 @@ if (isset($_POST['submit']))
           if (!empty($to))
            {
               
-            $sql= "INSERT INTO `pmas`.`mail` (`mail_id`, `s_id`, `f_id`, `msg`) VALUES ('', '$to', '$user', '$msg');";
+            $sql= "INSERT INTO `pms`.`mail` (`mail_id`, `s_id`, `f_id`, `msg`) VALUES ('', '$to', '$user', '$msg');";
                 mysqli_query($conn, $sql);
                 $conn->close();
                 header('Location:mail.php');  

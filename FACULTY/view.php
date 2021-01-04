@@ -38,7 +38,7 @@ elseif (isset($_POST['psf']))
                 $prid=$_POST['pid'];
                 if(!empty($feed))
                 {
-                $sql2= "UPDATE `pmas`.`project` SET `remark` = '$feed' WHERE `project`.`p_id` = '$prid';";
+                $sql2= "UPDATE `pms`.`project` SET `remark` = '$feed' WHERE `project`.`p_id` = '$prid';";
                 mysqli_query($conn, $sql2);
                 $conn->close();
                 header('Location:view.php');
@@ -54,7 +54,7 @@ elseif (isset($_POST['psf']))
                 $re=$_POST['remainder'];
                 $stuid=$_POST['stid'];
                 //$stuid;
-                $sql3= "INSERT INTO `pmas`.`mail` (`mail_id`, `s_id`, `f_id`, `msg`) VALUES ('', '$stuid', '$user', '$re');";
+                $sql3= "INSERT INTO `pms`.`mail` (`mail_id`, `s_id`, `f_id`, `msg`) VALUES ('', '$stuid', '$user', '$re');";
                 mysqli_query($conn, $sql3);
                 $conn->close();
                 header('Location:view.php');

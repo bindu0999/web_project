@@ -14,7 +14,7 @@ if (isset($_POST['update'])) {
 
   if (!empty($id) || !empty($name) || !empty($email) || !empty($phone) || !empty($pass) || !empty($qualification)) {
 
-    $sql = "UPDATE `pmas`.`faculty` SET `name` = '$name', `email` = '$email', `phone` = '$phone', `password` = '$pass', `qualification` = '$qualification' WHERE `faculty`.`f_id` = '$id';";
+    $sql = "UPDATE `pms`.`faculty` SET `name` = '$name', `email` = '$email', `phone` = '$phone', `password` = '$pass', `qualification` = '$qualification' WHERE `faculty`.`f_id` = '$id';";
     mysqli_query($conn, $sql);
     $conn->close();
     header('Location:fa_search.php');

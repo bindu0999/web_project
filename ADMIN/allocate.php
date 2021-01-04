@@ -15,7 +15,7 @@ if (isset($_POST['allocate'])) {
 
   if (!empty($sid) || !empty($fid) || !empty($proid)) {
 
-    $sql = "INSERT INTO `pmas`.`project` (`p_id`, `name`, `domain`, `s_id`, `f_id`, `ppf`, `psf`, `remark`) VALUES ('$proid', '', '', '$sid', '$fid', '', '', '');";
+    $sql = "INSERT INTO `pms`.`project` (`p_id`, `name`, `domain`, `s_id`, `f_id`, `ppf`, `psf`, `remark`) VALUES ('$proid', '', '', '$sid', '$fid', '', '', '');";
     mysqli_query($conn, $sql);
     $conn->close();
     header('Location:allocate.php');

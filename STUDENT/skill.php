@@ -7,7 +7,7 @@ include '../connection.php';
 
 if (isset($_POST['allocate'])) {
     $id = $_POST['facultyid'];
-    $sql = "INSERT INTO `pmas`.`request` (`request_id`, `s_id`, `f_id`) VALUES ('', '$user', '$id');";
+    $sql = "INSERT INTO `pms`.`request` (`request_id`, `s_id`, `f_id`) VALUES ('$id', '$user', '$id');";
     mysqli_query($conn, $sql);
     $conn->close();
     header('Location:skill.php');
@@ -140,10 +140,10 @@ if (empty($_SESSION['Email'])) {
                                 echo "<tr>";
                                 echo "<td>" . "Others" . "</td>";
                                 echo "<td>" ?> <input type="text" name="fao" readonly value="<?php echo $std['others']; ?>" /> <?php "</td>";
-                                 echo "</tr>";
+                                echo "</tr>";
                                 echo "<tr>";
                                 echo "<td></td>";
-                                echo "<td>" ?> <input  class="submit" type="submit" name="allocate" readonly value="Request For Allocate" /> <?php "</td>";
+                                echo "<td>" ?> <input  class="submit" type="submit" name="allocate" value="Request For Allocate" /> <?php "</td>";
                                 echo "</tr>";
                                  }
                              }

@@ -16,7 +16,7 @@ include '../connection.php';
           if (!empty($date)||!empty($time)||!empty($dec))
            {
               
-            $sql= "INSERT INTO `pmas`.`meeting` (`meeting_id`, `f_id`, `s_id`, `date`, `time`, `desc`) VALUES ('', '$fid', '$sid', '$date', '$time', '$dec');";
+            $sql= "INSERT INTO `pms`.`meeting` (`meeting_id`, `f_id`, `s_id`, `date`, `time`, `desc`) VALUES ('', '$fid', '$sid', '$date', '$time', '$dec');";
                 mysqli_query($conn, $sql);
                 $conn->close();
                 header('Location:meeting.php');  

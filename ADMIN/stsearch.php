@@ -18,7 +18,7 @@ if (isset($_POST['update'])) {
 
   if (!empty($id) || !empty($name) || !empty($email) || !empty($phone) || !empty($pass) || !empty($year) || $stream != "Select") {
 
-    $sql = "UPDATE `pmas`.`student` SET `name` = '$name', `email` = '$email', `phone` = '$phone', `password` = '$pass', `year` = '$year', `stream` = '$stream' WHERE `student`.`s_id` = '$id';";
+    $sql = "UPDATE `pms`.`student` SET `name` = '$name', `email` = '$email', `phone` = '$phone', `password` = '$pass', `year` = '$year', `stream` = '$stream' WHERE `student`.`s_id` = '$id';";
     mysqli_query($conn, $sql);
     $conn->close();
     header('Location:stsearch.php');
